@@ -1,0 +1,34 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.5
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-450202:
+    - grunt-contrib-compress > archiver > zip-stream > lodash:
+        patched: '2019-07-04T04:49:37.981Z'
+    - grunt-contrib-compress > lodash:
+        patched: '2019-07-04T04:49:37.981Z'
+    - grunt-contrib-compress > archiver > lodash:
+        patched: '2019-07-04T04:49:37.981Z'
+    - grunt-eslint > eslint > lodash:
+        patched: '2019-07-04T04:49:37.981Z'
+    - grunt-contrib-less > async > lodash:
+        patched: '2019-07-04T04:49:37.981Z'
+    - grunt-contrib-compress > archiver > async > lodash:
+        patched: '2019-07-04T04:49:37.981Z'
+    - grunt-eslint > eslint > table > lodash:
+        patched: '2019-07-04T04:49:37.981Z'
+    - grunt-contrib-less > lodash:
+        patched: '2019-07-04T04:49:37.981Z'
+    - grunt-contrib-compress > archiver > archiver-utils > lodash:
+        patched: '2019-07-04T04:49:37.981Z'
+    - grunt-eslint > eslint > inquirer > lodash:
+        patched: '2019-07-04T04:49:37.981Z'
+    - grunt-contrib-compress > archiver > zip-stream > archiver-utils > lodash:
+        patched: '2019-07-04T04:49:37.981Z'
+    - grunt-jasmine-node > jasmine-node > gaze > globule > lodash:
+        patched: '2019-07-04T04:49:37.981Z'
+    - grunt-lib-phantomjs > phantomjs > request > form-data > async > lodash:
+        patched: '2019-07-04T04:49:37.981Z'
+    - grunt-contrib-jasmine > grunt-lib-phantomjs > phantomjs > request > form-data > async > lodash:
+        patched: '2019-07-04T04:49:37.981Z'
