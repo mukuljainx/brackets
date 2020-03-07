@@ -35,7 +35,7 @@
         "grunt-contrib-requirejs": "0.4.1",
         "grunt-contrib-uglify": "^2.3.0",
         "grunt-contrib-watch": "0.4.3",
-        "grunt-eslint": "18.1.0",
+        "grunt-eslint": "22.0.0",
         "grunt-exec": "^1.0.1",
         "grunt-jasmine-node": "0.1.0",
         "grunt-lib-phantomjs": "0.3.0",
