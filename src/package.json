@@ -2,6 +2,6 @@
   "name": "brackets-src",
   "dependencies": {
     "codemirror": "5.21.0",
-    "less": "2.7.2"
+    "less": "3.12.0"
   }
 }
